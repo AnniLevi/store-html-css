@@ -1,0 +1,36 @@
+.bgvideo {
+  height: 70vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.bgvideo video {
+  height: 70vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/*нужен чтобы затемнить видео*/
+.effect {
+  height: 70vh;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.34);
+}
+
+.video-text {
+  color: #60ffad;
+  z-index: 2;
+  margin-bottom: 3%;
+}
